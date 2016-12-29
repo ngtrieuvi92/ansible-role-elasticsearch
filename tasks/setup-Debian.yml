@@ -4,8 +4,8 @@
     url: https://packages.elastic.co/GPG-KEY-elasticsearch
     state: present
 
-- name: Install  apt-transport-https.
-  apt: pkg= apt-transport-https state=present
+- name: Install  pt-transport-https.
+  apt: pkg=apt-transport-https state=present
 
 - name: Add Elasticsearch repository.
   apt_repository:
